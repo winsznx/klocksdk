@@ -5,13 +5,13 @@ A professional, class-based TypeScript SDK for the Klock smart contract on Stack
 ## Installation
 
 ```bash
-npm install klocksdk
+npm install @winsznx/klocksdk
 ```
 
 ## Quick Start
 
 ```typescript
-import { KlockClient } from 'klocksdk';
+import { KlockClient } from '@winsznx/klocksdk';
 
 async function main() {
   const client = new KlockClient({
