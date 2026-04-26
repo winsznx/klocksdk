@@ -1,6 +1,6 @@
 {
   "name": "@winsznx/klocksdk",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A professional, class-based TypeScript SDK for the Klock smart contract on Stacks.",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -28,5 +28,9 @@
   "devDependencies": {
     "tsup": "^8.0.2",
     "typescript": "^5.4.5"
-  }
+  },
+  "files": [
+    "dist",
+    "src"
+  ]
 }
