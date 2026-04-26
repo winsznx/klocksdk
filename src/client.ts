@@ -3,7 +3,8 @@ import {
     makeContractCall,
     broadcastTransaction,
     callReadOnlyFunction,
-    cvToJSON
+    cvToJSON,
+    AnchorMode
 } from '@stacks/transactions';
 import type { KlockConfig, RawKlockState, LiveKlockState } from './types.js';
 
@@ -71,6 +72,7 @@ export class KlockClient {
             functionArgs: [],
             senderKey: privateKey,
             validateWithAbi: true,
+            anchorMode: AnchorMode.Any,
             network: this.network,
         };
 
