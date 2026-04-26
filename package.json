@@ -1,5 +1,5 @@
 {
-  "name": "klocksdk",
+  "name": "@winsznx/klocksdk",
   "version": "1.0.0",
   "description": "A professional, class-based TypeScript SDK for the Klock smart contract on Stacks.",
   "main": "dist/index.js",
