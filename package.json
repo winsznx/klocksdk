@@ -1,0 +1,32 @@
+{
+  "name": "klocksdk",
+  "version": "1.0.0",
+  "description": "A professional, class-based TypeScript SDK for the Klock smart contract on Stacks.",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/winsznx/klocksdk.git"
+  },
+  "keywords": [
+    "stacks",
+    "klock",
+    "sdk",
+    "blockchain"
+  ],
+  "author": "winsznx",
+  "license": "MIT",
+  "dependencies": {
+    "@stacks/network": "^6.0.0",
+    "@stacks/transactions": "^6.0.0"
+  },
+  "devDependencies": {
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.5"
+  }
+}
